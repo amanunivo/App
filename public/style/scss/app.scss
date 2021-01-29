@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot"; 
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "custom/header"; //Custom
+@import "custom/grid"; //grid
+@import "tables"; 
+@import "forms";
+@import "buttons"; 
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms"; 
+@import "nav";
+@import "navbar"; 
+@import "card"; 
+@import "breadcrumb";
+@import "pagination";
+@import "badge"; 
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close"; 
+@import "toasts";
+@import "modal";
+@import "tooltip"; 
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities"; 
+@import "print"; 
+@import "custom/overlaping";//custom 
