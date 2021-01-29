@@ -1,39 +1,39 @@
 <template> 
 
     <div class="modal-backdrop">
-    <div class="modal">
-      <header class="modal-header">
-        <slot name="header">
-         
-
-          <button
-            type="button"
-            class="btn-close"
-            @click="close"
-          >
-            x
-          </button>
-        </slot>
-      </header>
-      <section class="modal-body">
-        <slot name="body">
-           
-        </slot>
-       </section>
-       <footer class="modal-footer">
-          <slot name="footer">
-            
+      <div class="modal">
+        <header class="modal-header">
+          <slot name="header">
+          Book a Free Demo Class
 
             <button
               type="button"
-              class="btn-pink btn"
+              class="btn-close"
               @click="close"
             >
-              Close me!
-          </button>
-        </slot>
-      </footer>
-    </div>
+              x
+            </button>
+          </slot>
+        </header>
+        <section class="modal-body">
+          <slot name="body">
+            I'm the default body!
+          </slot>
+        </section>
+        <footer class="modal-footer">
+            <slot name="footer">
+              I'm the default footer!
+
+              <button
+                type="button"
+                class="btn-green"
+                @click="close"
+              >
+                Close me!
+            </button>
+          </slot>
+        </footer>
+      </div>
   </div>
 
 </template>
@@ -78,6 +78,7 @@ export default {
     overflow-x: auto;
     display: flex;
     flex-direction: column;
+    max-width: 500px;
   }
 
   .modal-header,
