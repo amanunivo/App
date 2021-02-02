@@ -1,9 +1,9 @@
 <template>  
   <button @click="showModal" class="btn btn-yellow btn-lg px-lg-4 rounded-full font-weight-bold" >Book a Free Demo</button>
+  <modalBox  v-show="isModalVisible" @close="closeModal" @open="showModal"  />
   <Header/>
   <router-view /> 
   <Footer/>   
-  <modalBox  v-show="isModalVisible" @close="closeModal"  />
 </template>
 
 <script>

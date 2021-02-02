@@ -19,16 +19,13 @@
           </p>
           <a
             class="btn btn-yellow rounded-full btn-lg px-lg-4 font-weight-bold"
-            href="#"
-            >Book a Free Demo</a
-          >
+            href="#" >Book a Free Demo</a>
         </div>
         <div class="col-lg-6 hero-caption px-0">
           <img
             src="../assets/images/banner-img.png"
             class="img-fluid"
-            alt="banner"
-          />
+            alt="banner" />
         </div>
       </div>
     </div>

@@ -27,7 +27,7 @@
                         <a class="nav-link large-menu px-lg-4" href="#">Sign up or Login</a>
                     </li>
                     <li class="nav-item"> 
-                        <a @click="showModal" class="btn btn-yellow btn-lg px-lg-4 rounded-full font-weight-bold" href="#">Book a Free Demo</a>
+                        <a  @click="open" class="btn btn-yellow btn-lg px-lg-4 rounded-full font-weight-bold" href="#">Book a Free Demo</a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +40,11 @@
 <script>
 
 export default {
-    
+     methods: {
+      open() {
+        this.$emit('open');
+      },
+    }  
   
 }
 </script>
