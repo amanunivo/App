@@ -10,6 +10,8 @@
 import Header from './components/header.vue'
 import Footer from './components/footer.vue' 
 import modalBox from './components/modal.vue'
+import 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'
+import './assets/js/bootstrap.js'
 
 export default {
   name: 'App',
